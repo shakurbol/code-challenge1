@@ -11,9 +11,9 @@ def convert_to_24_hour(hour, minute, period):
     # Return the time in 24-hour format with zero-padding
     return f"{hour:02d}{minute:02d}"
 
-hour = 8
+hour = 4
 minute = 30
-period = 'am'
+period = 'pm'
 
 # Convert 12-hour time to 24-hour time
 result = convert_to_24_hour(hour, minute, period)
